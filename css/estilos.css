@@ -1,0 +1,58 @@
+/* font-family: 'Dancing Script', cursive; 
+font-family: 'Patrick Hand', cursive;
+font-family: 'Rampart One', cursive;*/
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+h2{
+    font-weight: bold;
+    margin-left: 30px;
+}
+table{
+    text-align: justify;
+    margin-left: 20px;
+}
+header{
+    background-color: black;
+    color: white;
+}
+.nav{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+i.fa-twitter{
+    color: rgb(106, 106, 250);
+}
+i.fa-facebook{
+    background-color:transparent;
+    color: rgb(40, 43, 231);
+}
+i.fa-instagram{
+    background-color: transparent;
+    color: white;
+}
+i.fa-pinterest{
+    background-color:transparent;
+    color: red;
+}
+i.fa-linkedin{
+    background-color: transparent;
+    color:blue;
+}
+
+
+
