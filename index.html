@@ -4,26 +4,83 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/24d3b6d56b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Patrick+Hand&family=Rampart+One&display=swap" rel="stylesheet">
-    <title>Página de ejemplo</title>
+    <!--Animacion palabras-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!--fin animacion palabras-->
+    <link rel="icon" href="img/cocina.ico"> <!--icono para la pestaña -->
+    <!--links de Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Fin Bootstrap-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Cocina Sin Lactosa</title>
 </head>
 
 <body>
   <header>
-    <nav>
+    <h1 class="animate__animated animate__bounceIn">Recetas de Cocina</h1>
+    
+    <!-- <nav class="nav">
         <a class="nav" href="index.html">Home</a>
         <a class="nav" href="acercade.html">Acerca de</a>
         <a class="nav" href="contacto.html">Contacto</a>
         <a class="nav" href="registrese.html">Registrese</a>
         <a class="nav" href="sucursales.html">Sucursales</a>
+    </nav> -->
+<!--INICIO NAV CON BOOTSTRAP-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="acercade.html">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registrese.html">Registrese</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sucursales.html">Sucursales</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="acercade.html">Acerca de</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </div>
+      </div>
     </nav>
-<h1>Recetas de Cocina</h1>
+<!--FIN NAV CON BOOTSTRAP-->
+
 </header>
 
+
+
+<main>
+  <h2>Chipá</h2>
+  <img class="imgindex" src="img/chipa.jpg">
+</main>
     <h2>Ingredientes</h2>
       <table>
         <tr>
@@ -40,15 +97,15 @@
         </tr>
         <tr>
           <td>75 grs.</td>
-          <td>Manteca</td>
+          <td>Manteca sin lactosa</td>
         </tr>
         <tr>
           <td>125 grs.</td>
-          <td>Queso criollo</td>
+          <td>Queso cremoso Sin Lactosa</td>
         </tr>
         <tr>
           <td>125 grs.</td>
-          <td>Queso parmesano</td>
+          <td>Queso parmesano sin lactosa</td>
         </tr>
         <tr>
           <td>1 pizca</td>
@@ -56,7 +113,7 @@
         </tr>
         <tr>
           <td>80 cc.</td>
-          <td>Leche</td>
+          <td>Leche sin lactosa</td>
         </tr>
         <tr>
           <td>¼ cdita.</td>
