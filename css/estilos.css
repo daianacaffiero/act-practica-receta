@@ -22,12 +22,30 @@ h3{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+table{
+    clear: all;
+}
+td{
+    clear: all;
+}
+#idtabla td{
+    border: 2px solid black;
+    table-layout: fixed;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    padding: 20px;
+}
 th{
     font-family: 'Rampart One', cursive;
+    border: 2px double black;
 }
-table{
-    text-align: justify;
-    margin-left: 20px;
+#idtabla td img{
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    height: 200px;
 }
 header{
     background-color: black;
@@ -44,9 +62,9 @@ header{
     left: 0;
 } */
 
-.imgindex{
+/* .imgindex{
     width: 40%;
-}
+} */
 footer{
     background-color: black;
     color: white;
@@ -131,3 +149,10 @@ textarea{
     width: 100%;
 }
 
+.card{
+    display: inline-block;
+    margin: 10px;
+}
+.card-img-top{
+    height: 200px;
+}
